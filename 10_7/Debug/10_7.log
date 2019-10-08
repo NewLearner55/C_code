@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/10/8 17:27:00。
+     1>项目“E:\code\C_code\10_7\10_7.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\安装包\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Test1.c
+         Test1.c
+     1>e:\code\c_code\10_7\test1.c(13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\安装包\vs2013\vc\include\stdio.h(283) : 参见“scanf”的声明
+       Link:
+         D:\安装包\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\C_code\10_7\Debug\10_7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code\C_code\10_7\Debug\10_7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\C_code\10_7\Debug\10_7.lib" /MACHINE:X86 Debug\Test1.obj
+         10_7.vcxproj -> E:\code\C_code\10_7\Debug\10_7.exe
+     1>已完成生成项目“E:\code\C_code\10_7\10_7.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.71
