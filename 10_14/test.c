@@ -1,5 +1,5 @@
 #include<stdio.h>
-int check_sys()
+int check_duan()
 {
 	union Un
 	{
@@ -14,7 +14,7 @@ int main()
 	//¥Û–°∂À≈–∂œ
 	int a = 1;
 	//char*pa = (char*)&a;
-	int ret =check_sys();
+	int ret =check_duan();
 	if ( ret== 1)
 	{
 		printf("¥Û∂À\n");
