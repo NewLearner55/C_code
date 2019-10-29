@@ -2,31 +2,23 @@
 #include<stdio.h>
 int main()
 {
-	//三个数从大到小排序
-	int a = 3;
-	int b = 5;
-	int c = 4;
-	if (a < b)
+	int n = 155;
+	int i = 0;
+	//偶数位
+	for(i = 31; i>=1; i-=2)
 	{
-		int tmp = a;
-		a = b;
-		b = tmp;
+		printf("%d ", (n>>i)&1);
 	}
-	if (a < c)
+	   printf("\n");
+	for(i=30; i>=0; i-=2)
 	{
-		int tmp = a;
-		a = c;
-		c = tmp;
+		printf("%d ", (n>>i)&1);
 	}
-	if (b < c)
-	{
-		int tmp = b;
-		b = c;
-		c = tmp;
-	}
-	printf("%d %d %d", a,b,c);
+	   printf("\n");
+
 	return 0;
 }
+
 
 
 
